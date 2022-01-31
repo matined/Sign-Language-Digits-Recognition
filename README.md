@@ -19,7 +19,7 @@ Each class has between 204 and 208 samples. The total data set contains 2062 sam
 - matplotlib
 
 ## Neural Network
-
+Current accuracy on the test set: `90%`
 <p align="center">
   <img src="./img/model_plot.png" style="width:600px;"/>
 </p>
