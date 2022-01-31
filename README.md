@@ -22,9 +22,7 @@ Each class has between 204 and 208 samples. The total data set contains 2062 sam
 
 The present model uses three convolutional layers with batch normalization and reLU activation and one fully connected layer with softmax activation.
 
-<<<<<<< HEAD
+
 ![](./img/model_plot.png)
-=======
 
 ![](./img/nn.png)
->>>>>>> 07d7616f720f576b52038ba4781bcbd984127836
