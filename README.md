@@ -16,7 +16,13 @@ Each class has between 204 and 208 samples. The total data set contains 2062 sam
 
 - numPy
 - tensorFlow
-- matplotlib
+- pickle
+- PIL
+- glob
+
+## How to run?
+
+To test the model on your own photo you just have to run the `main.py` file. You'll be able to upload your photo.
 
 ## Neural Network
 Current accuracy on the test set: `90%`
