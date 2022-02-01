@@ -33,7 +33,7 @@ def preprocess_image(filepath: str) -> tf.Tensor:
         The image as a tensorflow tensor
     """
     image = Image.open(filepath)
-    image.resize((100, 100))
+    image = image.resize((100, 100))
     image = tf.cast(image, dtype=tf.float32)
     return image
 
