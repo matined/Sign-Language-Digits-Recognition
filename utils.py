@@ -4,9 +4,14 @@ from PIL import Image
 import tensorflow as tf
 
 
-def get_data() -> dict:
+def get_data(path: str) -> dict:
     """
     Loads a dictionary of data.
+
+    Parameters
+    ----------
+    path : string
+        Path to the file
 
     Returns
     -------
@@ -14,7 +19,7 @@ def get_data() -> dict:
         Dictionary containing:
             X_train, y_train, X_test, y_test, X_valid, y_valid
     """
-    data = pickle.load(open('data/data.pkl', 'rb'))
+    data = pickle.load(open(path, 'rb'))
     return data
 
 
@@ -45,6 +50,19 @@ def predict(model, photo):
     return result
 
 
-def load_model():
-    model = tf.keras.models.load_model('models/model_1.h5')
+def load_model(path: str) -> tf.keras.Model:
+    """
+    Loads a saved model.
+
+    Parameters
+    ----------
+    path : string
+        Path to the file
+
+    Returns
+    -------
+    model : tf.keras.Model
+
+    """
+    model = tf.keras.models.load_model(path)
     return model
