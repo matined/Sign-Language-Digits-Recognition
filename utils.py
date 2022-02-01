@@ -39,8 +39,8 @@ def preprocess_image(filepath: str) -> tf.Tensor:
 
 
 def predict(model, photo):
-    photo = preprocess_image(photo)
-    predictions = model.predict(np.array([photo]))
+    photoRes = preprocess_image(photo)
+    predictions = model.predict(np.array([photoRes]))
     result = np.argmax(predictions)
     return result
 
