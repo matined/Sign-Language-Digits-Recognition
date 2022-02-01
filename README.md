@@ -14,6 +14,8 @@ Each class has between 204 and 208 samples. The total data set contains 2062 sam
 
 ## Libraries
 
+`pip install -r requirements.txt`
+
 - numPy
 - tensorFlow
 - pickle
