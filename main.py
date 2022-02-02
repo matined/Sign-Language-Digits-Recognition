@@ -56,7 +56,7 @@ def show_prediction(master, model, button, file_path):
 
 
 def main():
-    model = utils.load_model()
+    model = utils.load_model('models/model_1.h5')
 
     window, canvas = create_window()
     button_file = create_button(window, model)
