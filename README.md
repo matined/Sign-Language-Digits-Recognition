@@ -29,11 +29,11 @@ To test the model on your own photo you just have to run the `main.py` file. You
 ## Neural Network
 Current accuracy on the cross-validation set: `88%`
 <p align="center">
-  <img src="./img/model_plot.png" style="width:400px;"/>
+  <img src="./img/model_plot.png" style="width:600px;"/>
 </p>
 
 ## Confusion Matrix
 <p align="center">
-  <img src="./img/confusion_matrix.png" style="width:400px;"/>
+  <img src="./img/confusion_matrix.png" style="width:500px;"/>
 </p>
 
