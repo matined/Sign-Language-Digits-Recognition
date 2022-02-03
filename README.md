@@ -31,9 +31,10 @@ Current best accuracy on the cross-validation set: `95.7%`
 
 | Model           | Train Set Accuracy    | CV Set Accuracy       |
 |-----------------|:---------------------:|:---------------------:|
-| Custom convNet  | 99.8%                 | 95.7%                 |
-| AlexNet         | 97.4%                 | 89.3%                 |
+| Custom convNet  | *99.8%*               | **95.7%**             |
+| Resnet          | *97.4%*               | *89.3%*               |
 
+### Custom ConvNet Structure
 
 <p align="center">
   <img src="./img/model_plot.png" style="width:600px;"/>
