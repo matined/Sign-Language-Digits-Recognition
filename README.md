@@ -27,8 +27,9 @@ Each class has between 204 and 208 samples. The total data set contains 2062 sam
 To test the model on your own photo you just have to run the `main.py` file. You'll be able to upload your photo(doesn't handle `.heic` ext).
 
 <p align="center">
-  <img src="./img/window_a.png" style="width:200px;"/>
-  <img src="./img/window_a.png" style="width:200px;"/>
+  <img src="./img/window_a.png" style="width:350px;"/>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  <img src="./img/window_b.png" style="width:350px;"/>
 </p>
 
 ## Neural Network Models
